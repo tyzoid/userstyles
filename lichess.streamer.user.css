@@ -2,7 +2,7 @@
 @name           Lichess Streamer Layout
 @namespace      github.com/tyzoid/userstyles
 @homepageURL    https://raw.githubusercontent.com/tyzoid/userstyles/main/lichess.streamer.user.css
-@version        1.1.4
+@version        1.1.5
 @description    On lichess.org games, puts usernames and clocks around board for easier screen capture
 @author         github.com/ornicar
 @author         github.com/tyzoid
@@ -80,7 +80,7 @@ body > header.hide #topnav, body > header.hide .dropdown {
   .round {
     --chat-top-margin: calc(30px - 0.5rem);
     grid-template-areas: "side app app" "uchat app app";
-    grid-template-rows: calc(var(--chat-top-margin) + var(--cg-height)) 30px;
+    grid-template-rows: calc(var(--chat-top-margin) + var(---cg-height)) 30px;
     grid-row-gap: 0;
   }
 
@@ -118,7 +118,7 @@ body > header.hide #topnav, body > header.hide .dropdown {
     grid-area: 1 / 1 / 2 / 2;
   }
   .round__app .rclock-bottom {
-    transform: translateY(calc(var(--cg-height) + 20px));
+    transform: translateY(calc(var(---cg-height) + 20px));
   }
   .round__app .round__app__table {
     grid-area: 4 / 2 / 6 / 3;
@@ -164,7 +164,7 @@ body > header.hide #topnav, body > header.hide .dropdown {
   }
 
   .analyse__player_strip, .rclock {
-    margin-right: calc(100% - var(--cg-width));
+    margin-right: calc(100% - var(---cg-width));
   }
 }
 
